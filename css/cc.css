@@ -1,0 +1,119 @@
+/* Links */
+
+/* Text, images, and divs */
+
+#root {
+  background-color: #181718;
+}
+.h1-1 {
+  color: white;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: lighter;
+}
+.h3-1 {
+  color: white;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: lighter;
+}
+.h2-1 {
+  color: white;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: lighter;
+}
+.h2-2 {
+  color: white;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: lighter;
+}
+.p-1 {
+  color: white;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.p-2 {
+  color: white;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.p-3 {
+  color: white;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: small;
+}
+.d-1 {
+  height: 1000px;
+}
+.d-2 {
+  height: 1000px;
+  width: 100%;
+  background-color: transparent;
+}
+.d-3 {
+  height: 1000px;
+}
+.d-4 {
+  padding: 50px;
+}
+.parallax {
+  background-image: url("https://statichost.azureedge.net/assets/camera.jpg");
+  height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.parallax-2 {
+  background-image: url("https://statichost.azureedge.net/assets/law-hammer.jpg");
+  height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.parallax-3 {
+  background-image: url("https://statichost.azureedge.net/assets/comp.jpg");
+  height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.parallax-4 {
+  background-image: url("https://statichost.azureedge.net/assets/clapboard.jpg");
+  height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.hidden {
+  visibility: hidden;
+}
+
+.b-1 {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Misc. */
+body,
+html {
+  background-color: #181718;
+  height: 100%;
+}
+.noscripttext {
+  font-family: "Source Sans Pro", sans-serif;
+}

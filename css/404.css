@@ -1,0 +1,36 @@
+/* Links */
+@import url("https://huelet.net/css/font.css") /* Text, Images, and <div>s */
+  .noc {
+  size: 0ch;
+}
+.a {
+  color: white;
+}
+.b {
+  font-family: "Segoe Light";
+  font-weight: lighter;
+}
+.c {
+  font-size: small;
+}
+.d {
+  padding: 15px;
+}
+.e {
+  background-color: white;
+}
+.f {
+  padding: 15px;
+}
+#root {
+  background-color: #181718;
+  padding: 150px;
+}
+/* Misc. */
+html {
+  background-color: black;
+}
+.flex-parent {
+  display: flex;
+  flex-direction: row;
+}

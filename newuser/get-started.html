@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link href="https://statichost.azureedge.net/assets/nu.css" rel="stylesheet">
+    <link href="/css/font.css" rel="stylesheet">
+    <link href="/css/loader.css" rel="stylesheet">
+    <title>Get Started on Ignite Network</title>
+    <noscript>
+        <div class="noscriptoverlay">
+            <h2 class="noscripth">Hey, we usually allow you to not use JavaScript, but this page uses a lot of it, so you're going to have to turn it on. Sorry.</h2>
+        </div>
+    </noscript>
+        <script src="https://hcaptcha.com/1/api.js" async defer></script>
+        <script src="https://statichost.azureedge.net/assets/load.js"></script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript">
+  window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])};
+  heap.load("340507969");
+	</script>
+        <script>
+            $(window).ready(function(){
+$(".boton").wrapInner('<div class=botontext></div>');
+    
+    $(".botontext").clone().appendTo( $(".boton") );
+    
+    $(".boton").append('<span class="twist"></span><span class="twist"></span><span class="twist"></span><span class="twist"></span>');
+    
+    $(".twist").css("width", "25%").css("width", "+=3px");
+});
+        </script>
+        <script>
+            function validateForm() {
+                var form = document.forms["signUp"]["uname"].value;
+                if (form == "") {
+                    document.getElementById("formErr").innerHTML = "Whoops. Gotta have a Username.";
+                    return false;
+                }
+                if (RadioNodeList == "") {
+                    document.getElementById("formErr").innerHTML = "Sorry, but you have to agree to our policies.";
+                    return false;
+                }
+            }
+        </script>
+        <script>
+            function editPistupCookie() {
+                document.cookie = "_phstup=true; expires=Thu, 1 Jan 3000 12:00:00 UTC; path=/";
+            }
+        </script>
+        <body onload="setTimeout(loaderFn, 2500)">
+            <div class="loader" id="loader">
+  <div class="logo">
+    <div class="white"></div>
+    <div class="orange"></div>
+    <div class="red"></div>
+  </div>
+  <p>Loading</p>
+</div>
+            <div id="root">
+                <h2 class="h2-1">Get Started</h2>
+                <form name="signUp" action="/newuser/endpoint.php" onsubmit="return validateForm()" method="POST">
+                    <h2 class="h2-2">Username</h2>
+                <input type="text" name="uname">
+                    <h2 class="h2-2">I agree to the Terms and Conditions</h2>
+                <input type="radio" name="tc">&nbsp;<span class="radio">Yep.</span>
+                <input type="radio" name="tc" disabled>&nbsp;<span class="radio">Nah.</span>
+                    <h2 class="h2-2">I agree to the Privacy Policy</h2>
+                <input type="radio" name="pr">&nbsp;<span class="radio">Yep.</span>
+                <input type="radio" name="pr" disabled>&nbsp;<span class="radio">Nah.</span>
+                    <br>
+                    <br>
+                    <div id="formErr"></div>
+                    <div id="textBox"></div>
+                    <br>
+                    <br>
+                    <button type="submit" onclick="editPistupCookie()" id="goButton" class="transparent">
+                    <a class="boton">
+                            Let's go!
+                        </a>
+                    </button>
+                </form>
+            </div>
+</body>
+</html>
